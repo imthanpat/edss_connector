@@ -6,7 +6,7 @@ include('../config/nosql/connect_db.php');
 // Success
 $result = array();
 $result['status'] = 200;
-$result['msg'] = 'Success';
+$result['msg'] = 'Success_1';
 
 $result = json_encode($result);
 echo $result;
